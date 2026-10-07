@@ -24,7 +24,7 @@ function isValidName(value) {
 }
 
 function isValidEmail(value) {
-    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]$/;
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (typeof value !== "string") {
         return true;
