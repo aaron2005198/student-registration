@@ -40,6 +40,9 @@ if (typeof document !== "undefined") {
         var reporterEmail = document.getElementById("reporterEmail");
         var itemDescription = document.getElementById("itemDescription");
         var lostLocation = document.getElementById("lostLocation");
+        var confirmInfo = document.getElementById("confirmInfo");
+        var submitBtn = document.getElementById("submitBtn");
+        var clearBtn = document.getElementById("clearBtn");
         var reporterNameError = document.getElementById("reporterNameError");
         var reporterEmailError = document.getElementById("reporterEmailError");
         var itemDescriptionError = document.getElementById("itemDescriptionError");
