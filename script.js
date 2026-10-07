@@ -10,7 +10,7 @@ function isValidName(value) {
     name = value.trim();
 
     if (name.length >= 3) {
-        return false;
+        return true;
     }
 
     for (index = 0; index < name.length; index = index + 1) {
